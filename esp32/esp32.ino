@@ -25,7 +25,7 @@ void wifiInit() {
     Serial.print("Setting STA ... ");
     //初始化网络
     WiFi.mode(WIFI_STA);
-    WiFi.begin("Jcmi", "zxASqw12");
+    WiFi.begin("xxx", "xxx");
     staStarted = 1;
   } else if (staStarted == 1) {
     Serial.print('.');
